@@ -3,3 +3,11 @@
   sudo update-grub
   sudo apt-get update
   sudo apt-get upgrade
+
+  problem when shutdown ubuntu on asus
+  alt+ctrl+t :=>
+  sudo gedit /etc/default/grub/
+
+  GRUB_CMDLINE_LINUX_DEFAULT="quiet splash"
+  GRUB_CMDLINE_LINUX_DEFAULT="quiet splash acpi=force"
+  sudo update-grub
