@@ -1,0 +1,2 @@
+How to find out which partition is Ubuntu installed on?
+fdisk -l

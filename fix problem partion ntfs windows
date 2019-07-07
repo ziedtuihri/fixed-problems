@@ -1,0 +1,2 @@
+sudo ntfsfix /dev/sda4
+sda4 is the problem where sda{number problem}

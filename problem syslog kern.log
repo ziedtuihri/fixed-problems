@@ -1,8 +1,8 @@
   sudo rm /var/log/kern.log.1
   sudo rm /var/log/syslog.1
   sudo update-grub
-  sudo apt-get update
-  sudo apt-get upgrade
+  sudo apt-get update -y
+  sudo apt-get upgrade -y
 
   problem when shutdown ubuntu on asus
   alt+ctrl+t :=>
