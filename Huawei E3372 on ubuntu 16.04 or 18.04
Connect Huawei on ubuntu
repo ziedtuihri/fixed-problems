@@ -1,0 +1,23 @@
+fix problem Huawei E3372 on ubuntu 16.04 or 18.04
+Connect Huawei on ubuntu
+nano /lib/udev/rules.d/40-usb_modeswitch.rules
+
+# Huawei E630
+ATTR{idVendor}=="1033", ATTR{idProduct}=="0035", RUN+="usb_modeswitch '%b/%k'"
+
+# Huawei E3372
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="15b7", RUN+="usb_modeswitch '%b/%k'"
+
+# UTStarcom UM175 (distributor "Alltel")
+ATTR{idVendor}=="106c", ATTR{idProduct}=="3b03", RUN+="usb_modeswitch '%b/%k'"
+
+
+add this line and idVendor , idProduct is in lsusb
+
+# Huawei E3372
+ATTR{idVendor}=="12d1", ATTR{idProduct}=="15b7", RUN+="usb_modeswitch '%b/%k'"
+
+
+command lsusb :
+$lsusb
+Bus 001 Device 002: ID 12d1:15b7 Huawei Technologies Co., Ltd.
