@@ -1,0 +1,3 @@
+to change in the folder of your project angular
+
+sudo chmod -R ugo+rw yourFileName
