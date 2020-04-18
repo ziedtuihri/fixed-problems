@@ -21,3 +21,9 @@ ATTR{idVendor}=="12d1", ATTR{idProduct}=="15b7", RUN+="usb_modeswitch '%b/%k'"
 command lsusb :
 $lsusb
 Bus 001 Device 002: ID 12d1:15b7 Huawei Technologies Co., Ltd.
+
+# Hotspot not working
+// to restart your network
+sudo systemctl restart NetworkManager
+// to config your network 
+sudo nm-connection-editor
