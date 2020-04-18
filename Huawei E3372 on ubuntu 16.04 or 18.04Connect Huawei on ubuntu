@@ -27,3 +27,5 @@ Bus 001 Device 002: ID 12d1:15b7 Huawei Technologies Co., Ltd.
 sudo systemctl restart NetworkManager
 // to config your network 
 sudo nm-connection-editor
+// and remove all hotspot and run hotspot it work
+
