@@ -49,7 +49,7 @@ clé de déchiffrement
     E3372h Orange TN
     Model : Huawei E3372h
     Firmware : 21.200.07.03.314
-    Compile date / time : Oct 26 2015 14:00:15
+    Compile date / time : Oct 26 2021 14:00:15
     Hardware ver. : CL2E3372HM
     Dashboard version : IEW_Win_4.0.7.1_20150825145800_Mac4.0.5.1_150825.131832
 
@@ -58,13 +58,15 @@ clé de déchiffrement
     Found modem : E3372
     Model : Huawei E3372h
     Firmware : 22.315.01.00.1195
-    Compile date / time : Feb 14 2016 15:37:59
+    Compile date / time : Feb 14 2021 15:37:59
     Hardware ver. : CL2E3372HM
     Dashboard version : WEBUI_17.100.13.00.1195_HILINK
     Web UI version : WEBUI_17.100.13.00.1195_HILINK
     
     </pre>
   
+  <h3> Firmware Versionen Hi/Non Hilink E3372h inkl Mod is her : </h3>
+  https://www.lteforum.at/mobilfunk/firmware-versionen-hi-non-hilink-e3372h-inkl-mod.2691/
   
   
   
