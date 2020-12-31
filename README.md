@@ -18,7 +18,7 @@ Run sudo update-grub<br>
 Reboot<br>
 
 
-<h1><b>How to Unlock Huawei E3372h Modem </b><h1>
+<h2><b>How to Unlock Huawei E3372h Modem </b></h2>
   
   1) <h3> go to http://huaweicodecalculator.com/algo </h3>
   2) enter your MODEL and IMEI
